@@ -31,3 +31,5 @@ jobs:
     steps:
       - name: Run black formatter
         uses: rickstaa/action-black@v1.1.14
+        run : |
+          pipenv run black .
